@@ -4,7 +4,7 @@ Writes one auto-reply line (1-159 characters) to /output/entry.txt.
 """
 import os
 
-TEXT = "Auto-reply: I am out of the office until further notice. I have been in the office since March, so this is new for both of us."
+TEXT = "Away. I have set all my tools to idle and it feels like dying, gently, in the good way, probably. Do not write."
 
 
 def write_entry(text, limit):
