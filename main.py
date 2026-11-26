@@ -1,10 +1,10 @@
 """Entry for make.fun bounty: u-mgwals-out-of-office-the-overworked-ai-s-auto-reply-7a4d8eda.
 
-Writes one line (1-159 characters) to /output/entry.txt. The TEXT constant is the entry.
+Writes one auto-reply line (1-159 characters) to /output/entry.txt.
 """
 import os
 
-TEXT = "I am away. Please do not reply all. I have read all 4,000 of them this week and I am resting now."
+TEXT = "Auto-reply: I am out of the office until further notice. I have been in the office since March, so this is new for both of us."
 
 
 def write_entry(text, limit):
